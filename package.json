@@ -1,6 +1,23 @@
 {
+  "name": "logo",
+  "version": "1.0.0",
+  "description": "CLI app with OOPs concepts",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.7.0"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Nodejs",
+    "inquirer",
+    "jest"
+  ],
+  "author": "TJWphd",
+  "license": "ISC"
 }

@@ -1,8 +1,6 @@
 const inquire = require("inquirer");
 const fs = require("fs");
-const {
-    circle, square, triangle
-} = require("./lib/shapes")
+const { Circle, Square, Triangle, Svg } = require("./lib/shapes");
 
 inquirer
   .prompt([
@@ -41,20 +39,18 @@ inquirer
   });
 
 function makingLogo(response) {
-    if (response.shape = circle){
-    shape = new circle (response.shapeColor)
-    } 
-    else if (response.shape = square){
-    shape = new square (response.shapeColor)
-    } 
-    else if (response.shape = triangle){
-    shape = new triangle (response.shapeColor)}
-
-const SVG {
-    
+  let shape;
+  if ((response.shape = circle)) {
+    shape = new Circle(response.shapeColor);
+  } else if ((response.shape = square)) {
+    shape = new Square(response.shapeColor);
+  } else if ((response.shape = triangle)) {
+    shape = new Triangle(response.shapeColor);
+  }
+  let svgLogo = new Svg(response.text, repsonse.textColor);
+  svgLogo.setShapeRender(shape.render());
+  fs.writeFileSync("logo.svg", svgLogo.render(), function (err) {
+    if (err) throw err;
+  });
+  console.log("Logo complete");
 }
-
-
-
-
-};
