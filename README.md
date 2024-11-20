@@ -1,4 +1,4 @@
-# readME: a README Generator [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)#
+# logo: an SVG logo generator [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)#
 
 # Table of Contents
 
@@ -11,15 +11,13 @@
 
 ## Description
 
-generates logos for developers with a circle, triangle, or square in a color of their choice, with their logo text (word/initials) also in a color of their choice.
+This app generates logos for developers with a circle, triangle, or square in a color of their choice, with their logo text (word/initials) also in a color of their choice.
 
 ## Deployment
 
-Repo:
-Deployment Link:
-Instructions:
+Repo: https://github.com/TJWphd/logo
+
 Video:
-Screenshot:
 
 ## License
 
@@ -32,7 +30,7 @@ manual testing
 
 ## Acknowledgements
 
-Thanks to John Young, Zac Warner, and Sangeetha Kaliaperumal at edX/UC Berkeley Full-Stack Bootcamp for teaching, TAing, and tutoring me through this project. Thanks also to my classmates Tala Awwad and Art Camacho whom I study with, for bouncing ideas back and forth and UX/bug testing. Thank to my classmate Alex Mena who helped me with inquirer and shapes in javascript on this project.
+Thanks to John Young, Zac Warner, and Sangeetha Kaliaperumal at edX/UC Berkeley Full-Stack Bootcamp for teaching, TAing, and tutoring me through this project. Thanks also to my classmate Alex Mena who helped me with inquirer and shapes in javascript on this project. Zac got me through the test building and testing.
 
 ## Contact
 

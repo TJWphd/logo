@@ -1,4 +1,4 @@
-const inquire = require("inquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
 const { Circle, Square, Triangle, Svg } = require("./lib/shapes");
 
@@ -40,14 +40,14 @@ inquirer
 
 function makingLogo(response) {
   let shape;
-  if ((response.shape = circle)) {
+  if (response.shape === "circle") {
     shape = new Circle(response.shapeColor);
-  } else if ((response.shape = square)) {
+  } else if (response.shape === "square") {
     shape = new Square(response.shapeColor);
-  } else if ((response.shape = triangle)) {
+  } else if (response.shape === "triangle") {
     shape = new Triangle(response.shapeColor);
   }
-  let svgLogo = new Svg(response.text, repsonse.textColor);
+  let svgLogo = new Svg(response.text, response.textColor);
   svgLogo.setShapeRender(shape.render());
   fs.writeFileSync("logo.svg", svgLogo.render(), function (err) {
     if (err) throw err;
