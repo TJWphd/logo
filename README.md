@@ -17,7 +17,7 @@ This app generates logos for developers with a circle, triangle, or square in a 
 
 Repo: https://github.com/TJWphd/logo
 
-Video:
+Video: https://drive.google.com/file/d/1k4DIRgcqkzSULV5ItNT5psjnlXvEc4gs/view?usp=sharing
 
 ## License
 
