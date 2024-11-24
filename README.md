@@ -1,10 +1,9 @@
-# logo: an SVG logo generator [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)#
+# logo: an SVG logo generator
 
 # Table of Contents
 
 - [Description](#description)
 - [Deployment](#deployment)
-- [License](#license)
 - [Testing](#testing)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -18,11 +17,6 @@ This app generates logos for developers with a circle, triangle, or square in a 
 Repo: https://github.com/TJWphd/logo
 
 Video: https://drive.google.com/file/d/1k4DIRgcqkzSULV5ItNT5psjnlXvEc4gs/view?usp=sharing
-
-## License
-
-https://creativecommons.org/publicdomain/zero/1.0/
-The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
 
 ## Testing
 
